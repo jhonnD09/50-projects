@@ -6,6 +6,7 @@ import image from "../../assets/landing.png";
 import Image from "next/image";
 import Layout from "@/Components/Layout";
 import ExpandingCard from "@/Components/cero-five/Expanding-Card";
+import ProgressSteps from "@/Components/cero-five/ProgressSteps";
 
 export default function Home() {
   return (
@@ -25,6 +26,9 @@ export default function Home() {
           <h1 className=" text-5xl ml-5 mt-12 ">Project One</h1>
 
           <ExpandingCard />
+
+          <h1 className=" text-5xl ml-5 mt-12 ">Project Two</h1>
+          <ProgressSteps />
         </Layout>
       </main>
     </>

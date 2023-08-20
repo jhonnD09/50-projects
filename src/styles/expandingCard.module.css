@@ -38,11 +38,11 @@
   opacity: 0;
 }
 
-.panel:hover {
+.panel.active {
   flex: 5;
 }
 
-.panel:hover h3 {
+.panel.active h3 {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
   font-size: 24px;
