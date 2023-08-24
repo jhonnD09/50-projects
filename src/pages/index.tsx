@@ -7,6 +7,7 @@ import Image from "next/image";
 import Layout from "@/Components/Layout";
 import ExpandingCard from "@/Components/cero-five/Expanding-Card";
 import ProgressSteps from "@/Components/cero-five/ProgressSteps";
+import HiddenSearchWidget from "@/Components/cero-five/HiddenSearchWidget";
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
 
       <main>
         <Layout>
-          <div className="w-full bg-black h-[300px] flex items-center justify-center rounded-[30px] ">
+          <div className="w-full bg-black h-[300px] flex items-center justify-center rounded-[30px]">
             <h1 className=" text-white text-7xl text-center">
               50 Projects witch HTML - CSS - JS - TS
             </h1>
@@ -29,7 +30,9 @@ export default function Home() {
 
           <h1 className=" text-5xl ml-5 mt-12 ">Project Two</h1>
           <ProgressSteps />
+          <h1 className=" text-5xl ml-5 mt-12 ">Project Three</h1>
         </Layout>
+        <HiddenSearchWidget />
       </main>
     </>
   );

@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "../../styles/expandingCard.module.css";
-import { useState } from "react";
 
 export default function ExpandingCard() {
   const [openIt, setopenIt] = useState({
@@ -24,7 +23,7 @@ export default function ExpandingCard() {
   };
 
   return (
-    <main className={style.all}>
+    <main className={`${style.all} animate-fade-up animate-once`}>
       <div className={style.container}>
         <div
           id="one"

@@ -33,7 +33,7 @@ export default function ProgressSteps() {
 
   return (
     <div
-      className={`${style.container} items-center justify-center text-center`}
+      className={`${style.container} items-center justify-center text-center animate-fade-up animate-once`}
     >
       <div className={`${style.progresscontainer} flex justify-between`}>
         <div
