@@ -8,6 +8,7 @@ import Layout from "@/Components/Layout";
 import ExpandingCard from "@/Components/cero-five/Expanding-Card";
 import ProgressSteps from "@/Components/cero-five/ProgressSteps";
 import HiddenSearchWidget from "@/Components/cero-five/HiddenSearchWidget";
+import ScrollAnimation from "@/Components/cero-five/ScrollAnimation";
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
           <h1 className=" text-5xl ml-5 mt-12 ">Project Three</h1>
         </Layout>
         <HiddenSearchWidget />
+        <ScrollAnimation />
       </main>
     </>
   );
