@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^9.80.8",
+    "@react-three/fiber": "^8.13.7",
     "@types/node": "20.4.2",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
@@ -16,10 +18,14 @@
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.10",
     "framer-motion": "^10.16.1",
+    "framer-motion-3d": "^10.16.1",
     "next": "13.4.10",
+    "popmotion": "^11.0.5",
     "postcss": "8.4.26",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-use-measure": "^2.1.1",
+    "three": "^0.155.0",
     "typescript": "5.1.6"
   },
   "devDependencies": {
